@@ -2,8 +2,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.site-wide-alert {
+    background-color: #eec802;
+    border-color: #eec802;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px
+}
 .callout-container {
     height: 100vh;
     background: url(../images/whiskey-bg.jpg) no-repeat bottom right fixed;
@@ -32,6 +42,34 @@ body {
 
 .table-container {}
 
+/* navbar */
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 /* jumbotron */
 .jumbotron {
     background-color: transparent;
@@ -64,6 +102,8 @@ body {
 .block-divider-orange {
     background-color: #f05f40;
 }
+
+.block-divider--short{ }
 
 /* button */
 .btn-cta {
